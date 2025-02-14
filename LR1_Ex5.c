@@ -22,7 +22,7 @@ void print_table(const int HEIGHT, Student_t *st)
 
 	for	(int i = 0; i < HEIGHT; i++)
 	{
-		printf("| %i |%16s| %3i  |%15s| %4f |  %c |\n",i+1,(st+i)->FIO, (st+i)->kurs, (st+i)->grupa,
+		printf("| %i |%16s| %3i  |%15s| %4.3f |  %c |\n",i+1,(st+i)->FIO, (st+i)->kurs, (st+i)->grupa,
 				(st+i)->sr_bal, (st+i)->stip);
 		printf("---------------------------------------------------------\n");
 	}
