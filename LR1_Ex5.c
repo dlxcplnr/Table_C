@@ -16,9 +16,9 @@ typedef struct Student
 
 void print_table(const int HEIGHT, Student_t *st)
 {
-	printf("---------------------------------------------------------\n");
-	printf("| # |     FIO        | kurs |      grupa    |Sr.bal|Stip|\n");
-	printf("---------------------------------------------------------\n");
+	printf("----------------------------------------------------------\n");
+	printf("| # |     FIO        | kurs |      grupa    |Sr.bal |Stip|\n");
+	printf("----------------------------------------------------------\n");
 
 	for	(int i = 0; i < HEIGHT; i++)
 	{
